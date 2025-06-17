@@ -284,6 +284,7 @@ dependencies = [
  "notify",
  "regex",
  "reqwest",
+ "sea-orm",
  "serde",
  "serde_json",
  "tokio",

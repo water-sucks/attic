@@ -34,6 +34,15 @@ tracing = "0.1.37"
 tracing-subscriber = "0.3.17"
 xdg = "2.5.0"
 
+[dependencies.sea-orm]
+version = "0.12.10"
+features = [
+	"runtime-tokio-rustls",
+	"macros",
+	"sqlx-sqlite",
+	"debug-print",
+]
+
 [dependencies.tokio]
 version = "1.28.2"
 features = [
